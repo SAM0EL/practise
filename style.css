@@ -1,0 +1,1388 @@
+
+
+
+
+
+
+/* OLD-VERSIEN */
+
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('../fonts/Poppins-Bold.eot');
+    src: url('../fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/Poppins-Bold.woff') format('woff'),
+        url('../fonts/Poppins-Bold.ttf') format('truetype'),
+        url('../fonts/Poppins-Bold.svg#Poppins-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins Black';
+    src: url('../fonts/Poppins-Black.eot');
+    src: url('../fonts/Poppins-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Black.woff2') format('woff2'),
+        url('../fonts/Poppins-Black.woff') format('woff'),
+        url('../fonts/Poppins-Black.ttf') format('truetype'),
+        url('../fonts/Poppins-Black.svg#Poppins-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins BlackItalic';
+    src: url('../fonts/Poppins-BlackItalic.eot');
+    src: url('../fonts/Poppins-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Poppins-BlackItalic.woff') format('woff'),
+        url('../fonts/Poppins-BlackItalic.ttf') format('truetype'),
+        url('../fonts/Poppins-BlackItalic.svg#Poppins-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins ExtraBoldItalic';
+    src: url('../fonts/Poppins-ExtraBoldItalic.eot');
+    src: url('../fonts/Poppins-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Poppins-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/Poppins-ExtraBoldItalic.ttf') format('truetype'),
+        url('../fonts/Poppins-ExtraBoldItalic.svg#Poppins-ExtraBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins ExtraBold';
+    src: url('../fonts/Poppins-ExtraBold.eot');
+    src: url('../fonts/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Poppins-ExtraBold.woff') format('woff'),
+        url('../fonts/Poppins-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Poppins-ExtraBold.svg#Poppins-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins BoldItalic';
+    src: url('../fonts/Poppins-BoldItalic.eot');
+    src: url('../fonts/Poppins-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Poppins-BoldItalic.woff') format('woff'),
+        url('../fonts/Poppins-BoldItalic.ttf') format('truetype'),
+        url('../fonts/Poppins-BoldItalic.svg#Poppins-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins ExtraLight';
+    src: url('../fonts/Poppins-ExtraLight.eot');
+    src: url('../fonts/Poppins-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Poppins-ExtraLight.woff') format('woff'),
+        url('../fonts/Poppins-ExtraLight.ttf') format('truetype'),
+        url('../fonts/Poppins-ExtraLight.svg#Poppins-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins ExtraLightItalic';
+    src: url('../fonts/Poppins-ExtraLightItalic.eot');
+    src: url('../fonts/Poppins-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Poppins-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/Poppins-ExtraLightItalic.ttf') format('truetype'),
+        url('../fonts/Poppins-ExtraLightItalic.svg#Poppins-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins Italic';
+    src: url('../fonts/Poppins-Italic.eot');
+    src: url('../fonts/Poppins-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Italic.woff2') format('woff2'),
+        url('../fonts/Poppins-Italic.woff') format('woff'),
+        url('../fonts/Poppins-Italic.ttf') format('truetype'),
+        url('../fonts/Poppins-Italic.svg#Poppins-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins LightItalic';
+    src: url('../fonts/Poppins-LightItalic.eot');
+    src: url('../fonts/Poppins-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-LightItalic.woff2') format('woff2'),
+        url('../fonts/Poppins-LightItalic.woff') format('woff'),
+        url('../fonts/Poppins-LightItalic.ttf') format('truetype'),
+        url('../fonts/Poppins-LightItalic.svg#Poppins-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url('../fonts/Poppins-Medium.eot');
+    src: url('../fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff'),
+        url('../fonts/Poppins-Medium.ttf') format('truetype'),
+        url('../fonts/Poppins-Medium.svg#Poppins-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins Light';
+    src: url('../fonts/Poppins-Light.eot');
+    src: url('../fonts/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Light.woff2') format('woff2'),
+        url('../fonts/Poppins-Light.woff') format('woff'),
+        url('../fonts/Poppins-Light.ttf') format('truetype'),
+        url('../fonts/Poppins-Light.svg#Poppins-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins MediumItalic';
+    src: url('../fonts/Poppins-MediumItalic.eot');
+    src: url('../fonts/Poppins-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Poppins-MediumItalic.woff') format('woff'),
+        url('../fonts/Poppins-MediumItalic.ttf') format('truetype'),
+        url('../fonts/Poppins-MediumItalic.svg#Poppins-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins SemiBold';
+    src: url('../fonts/Poppins-SemiBold.eot');
+    src: url('../fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/Poppins-SemiBold.woff') format('woff'),
+        url('../fonts/Poppins-SemiBold.ttf') format('truetype'),
+        url('../fonts/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url('../fonts/Poppins-Regular.eot');
+    src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff'),
+        url('../fonts/Poppins-Regular.ttf') format('truetype'),
+        url('../fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins Thin';
+    src: url('../fonts/Poppins-Thin.eot');
+    src: url('../fonts/Poppins-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Thin.woff2') format('woff2'),
+        url('../fonts/Poppins-Thin.woff') format('woff'),
+        url('../fonts/Poppins-Thin.ttf') format('truetype'),
+        url('../fonts/Poppins-Thin.svg#Poppins-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins ThinItalic';
+    src: url('../fonts/Poppins-ThinItalic.eot');
+    src: url('../fonts/Poppins-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Poppins-ThinItalic.woff') format('woff'),
+        url('../fonts/Poppins-ThinItalic.ttf') format('truetype'),
+        url('../fonts/Poppins-ThinItalic.svg#Poppins-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins SemiBoldItalic';
+    src: url('../fonts/Poppins-SemiBoldItalic.eot');
+    src: url('../fonts/Poppins-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Poppins-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Poppins-SemiBoldItalic.ttf') format('truetype'),
+        url('../fonts/Poppins-SemiBoldItalic.svg#Poppins-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+/*======SCROLL BAR STYLE BEGIN ========*/
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #000000;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(101deg, #72E3CF 0%, rgba(114, 227, 207, 0.3) 100%);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(101deg, #72E3CF 0%, rgba(0, 20, 101, 0.6) 100%);
+}
+
+/*======SCROLL BAR STYLE END ========*/
+
+/*====== GENERAL STYLE BEGIN =======*/
+
+.text-center {
+    text-align: center;
+}
+
+.interblack {
+    font-family: "Inter Black" !important;
+}
+
+.gradient-text {
+    background: linear-gradient(101deg, #FFC56B 0%, #C07BCB 40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.radius-img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* تغيير لون الخلفية لصفحة Healthy Life */
+.custom-healthylife {
+    background-color: #21337f !important;
+}
+
+.custom-healthylife .sidebar {
+    background-color: #21337f !important;
+}
+
+/*li.anker-menu.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-639.first.depth-0 .menu-item-text{
+	position: relative;
+}
+
+li.anker-menu.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-639.first.depth-0 .menu-item-text::before {
+	content:"";
+    width: 0px;
+    height: 12px;
+    border: 1px solid #e5e5e5;
+    position: absolute;
+    right: -18px;
+    bottom: 1px;
+}*/
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-795.last.depth-0, li.anker-menu.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-794.depth-0 {
+    display: none;
+}
+@media screen and (max-width: 1178px) {
+    li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-795.last.depth-0, li.anker-menu.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-794.depth-0 {
+        display: block;
+    }
+}
+/*====== End GENERAL STYLE =======*/
+
+/*====== FIRST ROW STYLE BEGIN =======*/
+
+/*@media only screen and (max-width: 300px) {
+    h1#firs-row-heading-healthylife {
+        font-size: 49px;
+        line-height: 1.5;
+    }
+
+    #firs-row-textblock {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 479px) {
+    h1#firs-row-heading-healthylife {
+        font-size: 55px;
+        line-height: 1.3;
+    }
+
+    #firs-row-textblock {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    h1#firs-row-heading-healthylife {
+        font-size: 62px;
+        line-height: 1.3;
+    }
+
+    #firs-row-textblock {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    h1#firs-row-heading-healthylife {
+        font-size: 100px;
+        line-height: 1.3;
+
+    }
+
+    #firs-row-textblock {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    h1#firs-row-heading-healthylife {
+        font-size: 150px;
+        line-height: 1;
+    }
+}*/
+
+.button-slider {
+    backdrop-filter: blur(6px);
+}
+
+#first {
+    border-radius: 0px 0px 145px 145px;
+}
+
+/*====== FIRST ROW STYLE END =======*/
+
+/*====== INTRODUCTION SECTION STYLE BEGIN =======*/
+
+/* #pro-life-Introduction-row {
+    display: flex;
+	margin-top: 110px;
+    align-items: flex-start;
+}
+    
+.bottom-row .first-row-button {
+    margin-left: 0px;
+    margin-top: 18px;
+    width: 271px;
+    height: 58px;
+    justify-self: center;
+}
+
+.bottom-row::after {
+  	content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.3);
+    left: 0;
+    position: absolute; 
+}
+
+.bottom-row::before {
+    content: "";
+} */
+
+/* @media only screen and (min-width: 300px) and (max-width: 850px) {
+    #pro-life-Introduction-row {
+        flex-direction: column;
+    }
+
+    .Introduction-column-img {
+        right: 120px;
+    }
+
+    .introduction-card-key-benefits {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        right: 17px;
+    }
+
+    .introduction-card-key-benefits .wpb_column.vc_column_container.vc_col-sm-4 {
+        width: 30%;
+    }
+
+    .introduction-card-key-benefits .card-key-benefits .wpb_wrapper {
+        min-width: 60px !important;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
+
+@media only screen and (min-width: 690px) and (max-width: 850px) {
+    .Introduction-column-img::after {
+        right: 85px !important;
+    }
+
+    .Introduction-column-img {
+        right: 66px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .Introduction-column-img {
+        right: 160px;
+        transform: scale(1.3);
+    }
+
+    .bottom-row {
+        margin-top: -80px;
+    }
+
+    #pro-life-Introduction-row .Introduction-column-img {
+        width: 128%;
+    }
+
+    .introduction {
+        right: 32px;
+        top: 24px;
+    }
+
+    .bottom-row .first-row-button {
+        margin-left: 18px;
+    }
+}*/
+
+/*.Introduction-column-img::before {
+    content: "";
+    background: radial-gradient(circle, #4562D9 20%, #4562d900 48%);
+    width: 700px;
+    height: 700px;
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    z-index: -1;
+    filter: blur(130px);
+}*/
+
+.Introduction-column-img::after {
+    content: "";
+}
+
+.introduction-card-key-benefits .card-key-benefits .wpb_wrapper {
+    padding: 8px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    font-size: 16px;
+    line-height: 1.6;
+    border-color: #FFFFFF42;
+    border-style: solid;
+    background: radial-gradient(circle at 25% 10%, rgba(255, 255, 255, 0.26) -50%, rgba(30, 58, 138, 0) 100%);
+    color: #FFFFFF;
+    min-height: 158px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+	width: 68px;
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1024px) {
+ 	.introduction-card-key-benefits .card-key-benefits .wpb_wrapper {
+	width: 55px;
+	}
+}
+
+.bottom-row {
+    background-color: #21337f;
+    border-radius: 0 0 500px 500px;
+    box-shadow: 0px 36px 30px rgba(0, 0, 0, 0.3);
+    height: 150px;
+}
+
+.border-radius {
+    border-radius: 0px 0px 145px 145px;
+    box-shadow: 0px 36px 30px rgba(0, 0, 0, 0.3);
+}
+
+.border-radius::after {
+    content: "";
+    background: radial-gradient(circle, #4562D9 20%, #4562d900 48%);
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    top: -210px;
+    left: 100px;
+    z-index:-1;
+    filter: blur(100px);
+}
+
+ @media only screen and (min-width: 300px) and (max-width: 780px) {
+.border-radius::after {
+    top: 270px;
+
+	}
+}
+    
+.first-row-button .ubtn-data.ubtn-text {
+    margin-right: 16px;
+}
+
+/*====== INTRODUCTION SECTION STYLE END =======*/
+
+/*====== PRODUCT SECTION STYLE BEGIN =======*/
+.product-row {
+    margin-top: 70px;
+    flex-wrap: nowrap !important;
+}
+
+.reverse-column {
+    flex-direction: row-reverse;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 850px) {
+    .product-row {
+        flex-direction: column;
+    }
+
+    .product-row .product-column {
+        width: 100% !important;
+        margin-left: 0px !important;
+        padding: 20px 15px !important;
+    }
+
+    .product-img-column {
+        margin-right: 0px !important;
+    }
+
+    .product-column-cart {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .product-column-cart .wpb_column.vc_column_container.vc_col-sm-3 {
+        width: 42%;
+        margin-top: 10px;
+    }
+    #first-card .wpb_wrapper {
+    min-height: 174px !important;
+	}
+
+	#secand-card .wpb_wrapper {
+    min-height: 174px !important;
+	}
+    .product-column-cart .wpb_column.vc_column_container.vc_col-sm-12.vc_col-md-offset-1.vc_col-md-5.vc_col-xs-offset-3.vc_col-xs-7 {
+    margin-left: 68px;
+}
+}
+
+
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+
+    .product-row .product-column {
+        width: 58% !important;
+        margin-left: 0px !important;
+        padding: 20px 15px !important;
+        transform: scale(0.7) !important;
+    }
+
+    .product-img-column {
+        margin-right: 0px !important;
+    }
+
+    .product-column-cart {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .product-column-cart .wpb_column.vc_column_container.vc_col-sm-3 {
+        width: 42%;
+        margin-top: 10px;
+    }
+    #first-card .wpb_wrapper {
+    min-height: 174px !important;
+	}
+
+	#secand-card .wpb_wrapper {
+    min-height: 174px !important;
+	}
+}
+
+.product-row .product-column {
+    padding: 50px 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    font-size: 16px;
+    line-height: 1.6;
+    border-color: #FFFFFF42;
+    border-style: solid;
+    background: radial-gradient(circle at 25% 10%, rgba(255, 255, 255, 0.26) -50%, rgba(30, 58, 138, 0) 100%);
+    color: #FFFFFF;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 65%;
+    scale: 0.9;
+    margin-left: 20px;
+}
+
+#text-product-cart {
+    padding-bottom: 30px;
+}
+
+.product-img-column {
+    margin-right: 20px;
+}
+
+.product-img-column img {
+    scale: 1.2;
+}
+
+#first-card .wpb_wrapper {
+    padding: 8px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    font-size: 16px;
+    line-height: 1.6;
+    border-color: #FFFFFF42;
+    border-style: solid;
+    background: radial-gradient(circle at 25% 10%, rgba(255, 255, 255, 0.26) -50%, rgba(30, 58, 138, 0) 100%);
+    color: #FFFFFF;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-width: 65px;
+}
+
+#secand-card .wpb_wrapper {
+    padding: 8px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    font-size: 16px;
+    line-height: 1.6;
+    border-color: #FFFFFF42;
+    border-style: solid;
+    background: radial-gradient(circle at 25% 10%, rgba(255, 255, 255, 0.26) -50%, rgba(30, 58, 138, 0) 100%);
+    color: #FFFFFF;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-width: 65px;
+}
+
+.product-img-column::before {
+    content: "";
+    background: radial-gradient(circle, #4562D9 20%, #4562d900 48%);
+    width: 700px;
+    height: 700px;
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    right: -60px;
+    z-index: -1;
+    filter: blur(130px);
+}
+
+.wellgo-product-img-column{
+    z-index: 1;
+    margin-left: 20px;
+}
+
+.wellgo-product-img-column img {
+    scale: 1.2;
+}
+
+.wellgo-product-img-column::before {
+    content: "";
+    background: radial-gradient(circle, #4562D9 20%, #4562d900 48%);
+    width: 700px;
+    height: 700px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    right: -175px;
+    z-index: -1;
+    filter: blur(130px);
+}
+
+.pepe-product-img-column {
+    margin-left: 20px;
+}
+
+.pepe-product-img-column img {
+    scale: 1.2;
+}
+
+.pepe-product-img-column::before {
+    content: "";
+    background: radial-gradient(circle, #4562D9 20%, #4562d900 48%);
+    width: 700px;
+    height: 700px;
+    display: inline-block;
+    position: absolute;
+    bottom: 60px;
+    z-index: -1;
+    filter: blur(130px);
+}
+
+.product-img-column::after {
+    content: "";
+}
+
+.product-arrow::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #72E3CF url(https://tacverse.com/healthylife/wp-content/uploads/2025/02/Arrw.png) no-repeat center center;
+    position: absolute;
+    right: 0;
+}
+
+.product-arrow::after {
+    content: "";
+}
+
+.product-cart .wpb_wrapper {
+    padding: 8px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    font-size: 16px;
+    line-height: 1.6;
+    border-color: #FFFFFF42;
+    border-style: solid;
+    background: radial-gradient(circle at 25% 10%, rgba(255, 255, 255, 0.26) -50%, rgba(30, 58, 138, 0) 100%);
+    color: #FFFFFF;
+    min-height: 158px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-width: 65px;
+}
+
+/*====== PRODUCT SECTION STYLE END =======*/
+
+/*====== PROBIOTIC SECTION STYLE BEGIN =======*/
+.heading-probiotic-section {
+    z-index: -1;
+    height: 205px;
+    margin-top: -145px;
+    border-top: 85px solid transparent;
+    border-right: 100px solid #E4E4E3;
+    border-left: 100px solid #E4E4E3;
+    border-bottom: 0 solid transparent;
+}
+
+.probiotic-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-probiotic h3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.paragraph-probiotic {
+    padding: 59px 45px 85px;
+    border-radius: 30px;
+    background: radial-gradient(circle at 90% 25%, #2f44a0 15%, rgba(30, 58, 138, 0) 50%);
+}
+
+.paragraph-probiotic-second {
+    padding: 20px 30px;
+    border-radius: 30px;
+    background: radial-gradient(circle at 90% 25%, #2f44a0 15%, rgba(30, 58, 138, 0) 50%);
+
+}
+
+.paragraph-probiotic-second p {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.paragraph-probiotic-second img {
+    margin-right: 10px;
+}
+
+/*====== PROBIOTIC SECTION STYLE END =======*/
+
+/*====== SCIENCE BEHIND SECTION STYLE BEGIN =======*/
+span.bold-text {
+    font-family: 'Poppins Bold';
+}
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background: #20327c;
+    color: white;
+    white-space: nowrap;
+    font-size: 22px;
+    position: relative;
+}
+
+.marquee-content span {
+    word-spacing: 8px;
+}
+
+.marquee-content {
+    display: flex;
+    gap: 8px;
+    width: max-content;
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.highlight {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*====== SCIENCE BEHIND SECTION STYLE END =======*/
+
+/*====== HEALTH BENEFITS SECTION STYLE BEGIN =======*/
+/* .heading-regular h2 {
+    font-family: Poppins Regular;
+    font-weight: 500;
+}  */
+
+.health-inner-row .vc_row.wpb_row.vc_inner.vc_row-fluid.vc_row-o-content-middle.vc_row-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.health-info-box .wpb_single_image.wpb_content_element {
+    width: 45px;
+}
+
+.health-inner-row {
+    gap: 5px;
+    justify-content: space-around !important;
+    align-content: center !important;
+}
+
+.health-info-box {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 40px 30px 80px !important;
+	}
+
+ @media only screen and (min-width: 851px) and (max-width: 1025px){
+.health-info-box {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 40px 26px 80px !important;
+	}
+}
+
+ @media only screen and (min-width: 300px) and (max-width: 850px) {
+	.health-info-box {
+    	padding: 0px 30px 0px !important;
+	}
+}
+
+.health-info-box:hover {
+    border: 1px solid #21337E;
+    border-radius: 20px;
+}
+
+/*====== HEALTH BENEFITS SECTION STYLE END =======*/
+
+/*====== BLOG SECTION STYLE BEGIN =======*/
+.post-entry-content {
+    display: flex;
+    align-items: flex-start;
+    justify-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.entry-meta {
+    order: 1;
+}
+
+h3.entry-title {
+    order: 2;
+}
+
+.entry-excerpt {
+    order: 3;
+}
+
+a.post-details.details-type-link {
+    order: 4;
+}
+
+.blog-cart img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.blog-cart article.post.project-odd.visible {
+    border-radius: 20px;
+}
+
+.blog-cart .dt-icon-the7-arrow-03:before {
+    content: "\ef08" !important;
+    font-size: 12px;
+    position: relative;
+    top: 1px;
+}
+
+/*====== BLOG SECTION STYLE END =======*/
+
+/*====== FORM SECTION STYLE BEGIN =======*/
+.form-column form {
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 360px;
+    display: block;
+    align-content: center;
+}
+
+.form-column .input-group {
+    display: flex;
+    gap: 30px;
+    height: 80px;
+    margin-top: -21px;
+}
+
+.form-column .phone p {
+    height: 70px;
+}
+
+.message p {
+    height: 150px;
+}
+
+.form-column input,
+.form-column textarea {
+    padding: 20px !important;
+    border-radius: 25px !important;
+    background: #F2F7FD !important;
+}
+
+.form-column input::placeholder,
+.form-column textarea::placeholder {
+    color: #071C3C !important;
+    opacity: 1;
+}
+
+
+.form-column input:focus,
+.form-column textarea:focus {
+    outline: none;
+    background: #E4EFFB !important;
+    border-radius: 30px;
+}
+
+
+.form-column textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.form-column .button-container {
+    text-align: left;
+    margin-top: 15px;
+    display: flex;
+    width: 18%;
+}
+
+.form-column input.wpcf7-form-control.wpcf7-submit.has-spinner {
+    color: #fff !important;
+    background: #21337E !important;
+    padding: 20px !important;
+}
+
+
+/*====== FORM SECTION STYLE END =======*/
+
+/*====== CONTACT SECTION STYLE BEGIN =======*/
+.phone-mail-column a {
+    text-decoration: none;
+    color: #071C3C;
+    font-weight: 600;
+}
+
+.phone-mail-column a:hover {
+    color: #20327c;
+}
+
+.phone-textblock .phone::before {
+    content: "";
+    background-image: url(https://tacverse.com/healthylife/wp-content/uploads/2025/02/.png);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 26px;
+    position: absolute;
+    left: -40px;
+    top: 38px;
+}
+
+.phone-textblock .phone::after {
+    content: "";
+}
+
+.mail-textblock .mail::before {
+    content: "";
+    background-image: url(https://tacverse.com/healthylife/wp-content/uploads/2025/02/stylefill.png);
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 24px;
+    position: absolute;
+    left: -40px;
+    top: 40px;
+}
+
+.mail-textblock .mail::after {
+    content: "";
+}
+
+.form-ready-column form {
+    width: 92%;
+}
+
+.form-ready-column .input-group {
+    display: flex;
+    gap: 12px;
+    margin-top: -21px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-ready-column textarea {
+    padding: 20px !important;
+    border-radius: 25px !important;
+    background: #DBDBDB !important;
+}
+
+.form-ready-column input {
+    padding: 20px !important;
+    border-radius: 55px !important;
+    background: #DBDBDB !important;
+}
+
+.form-ready-column input::placeholder,
+.form-ready-column textarea::placeholder {
+    color: #071C3C !important;
+    opacity: 1;
+}
+
+
+.form-ready-column input:focus,
+.form-ready-column textarea:focus {
+    outline: none;
+    background: #E4EFFB !important;
+    border-radius: 30px;
+}
+
+.form-ready-column .button-container {
+    margin-top: 15px;
+}
+
+.form-ready-column input.wpcf7-form-control.wpcf7-submit.has-spinner {
+    color: #fff !important;
+    background: #21337E !important;
+    padding: 23px !important;
+}
+
+.form-ready-column span.wpcf7-spinner {
+    display: none;
+}
+
+.form-ready-column {
+    margin: auto;
+}
+
+.are-you-ready-row {
+    padding: 30px 0px 60px 0px;
+    border-radius: 20px;
+    top: 110px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*====== CONTACT SECTION STYLE END =======*/
+
+/*====== FOOTER SECTION STYLE BEGIN =======*/
+.footer-link-product::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff url(https://tacverse.com/healthylife/wp-content/uploads/2025/02/Rectangle-5.png) no-repeat center center;
+    position: absolute;
+    left: 140px;
+    bottom: -5px;
+}
+
+.footer-link-product{
+	position: relative;
+}
+
+ @media only screen and (min-width: 300px){
+	.footer-link-product::before {
+        left: 126px;
+        bottom: -5px;
+    }
+}
+
+ @media only screen and (min-width: 300px) and (max-width: 850px) {
+.alignright {
+    float: right;
+    margin: 0 0 10px 30px;
+}
+
+}
+
+ /*@media only screen and (min-width: 1559px) {
+	.footer-link-product::before {
+        left: 126px;
+        bottom: -5px;
+    }
+
+}*/
+
+.footer .textwidget a:not(.dt-btn):hover {
+    color: #fff !important;
+}
+
+.healthy-life {
+    word-wrap: break-word;
+    width: 168px;
+    margin-bottom: 29px;
+}
+
+.healthy-life h3 {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 100;
+}
+
+#simple-social-icons-2 .widget-title {
+    color: #ffffffcc !important;
+    font-size: 13px;
+}
+
+/*====== FOOTER SECTION STYLE END =======*/
+/*====== BLOG PAGE STYLE BEGIN =======*/
+
+.fancy-title-head.hgroup::before {
+    content: "";
+    background: radial-gradient(circle, #4562D9 20%, #4562d900 48%);
+    width: 700px;
+    height: 700px;
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    left: 285px;
+    z-index: -1;
+    filter: blur(130px);
+}
+
+ @media only screen and (min-width: 851px) and (max-width: 1025px){
+.fancy-title-head.hgroup::before {
+        bottom: 0px;
+        left: 175px;
+}
+}
+
+ @media only screen and (min-width: 300px) and (max-width: 850px) {
+.fancy-title-head.hgroup::before {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    position: absolute;
+    bottom: -65px;
+    left: 50px;
+    filter: blur(60px);
+}
+}
+
+
+.page-blog .post-thumbnail-rollover {
+    border-radius: 20px;
+}
+.page-blog a.post-details.details-type-link {
+    border: 1px solid #071C3C;
+    padding: 12px;
+    border-radius: 24px;
+}
+
+.page-blog .post-details.details-type-link:hover:after {
+    display:none;
+}
+
+.page-blog .post-details.details-type-link:hover{
+	background: #071C3C;
+    color: #fff !important;
+}
+
+.page-blog .dt-icon-the7-arrow-03:before {
+    content: "\ef03" !important;
+}
+
+.page-blog a.post-details.details-type-link i.dt-icon-the7-arrow-03 {
+    color: #071C3C;
+    transition: color 0.3sease;
+}
+
+.page-blog .post-details.details-type-link:hover i.dt-icon-the7-arrow-03:before {
+    color: #fff !important;
+}
+/*====== BLOG PAGE STYLE END =======*/
+
+/*====== sidebar STYLE BEGIN =======*/
+
+#search-2, #presscore-blog-categories-2, #presscore-blog-posts-2, #tag_cloud-2 {
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+#sidebar .widget-title {
+    border-bottom: 1px solid #E4E5E5;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+#sidebar .widget-title::before {
+    content: "";
+    display: table;
+    width: 13%;
+    height: 1px;
+    border-bottom: 1px solid #20327C;
+    position: absolute;
+    bottom: 0;
+}
+
+#search-2 #the7-search {
+    border-radius: 20px;
+}
+
+#search-2 #Layer_1 {
+    fill: #101a2a !important;
+    color: #101a2a !important;
+    filter: drop-shadow(0px 0px 0px #949caa);
+}
+
+.sidebar-content .custom-categories a span.item-num, .sidebar-content .cat-item a span.item-num {
+    display: none;
+}
+
+#tag_cloud-2 a.tag-cloud-link {
+    border: 1px solid #646464;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 3px;
+}
+
+#text-2 .textwidget {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#text-2 span.phone, span.mail{
+	position: relative;
+    display: flow;
+}
+
+#text-2 span.phone::before {
+    content: "";
+    background: #F2F7FD url(https://tacverse.com/healthylife/wp-content/uploads/2025/02/-1.png) no-repeat center center;
+    display: table;
+	width: 27%;
+    height: 200%;
+    padding: 2px;
+    position: absolute;
+    left: -68px;
+    bottom: -22px;
+    border-radius: 24px;
+} 
+
+#text-2 span.mail::before {
+    content: "";
+    background: #F2F7FD url(https://tacverse.com/healthylife/wp-content/uploads/2025/02/stylefill-1.png) no-repeat center center;
+    display: table;
+	width: 45%;
+    height: 200%;
+    padding: 4px;
+    position: absolute;
+    left: -68px;
+    bottom: -22px;
+    border-radius: 24px;
+} 
+
+/*====== sidebar STYLE END =======*/
